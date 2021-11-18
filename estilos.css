@@ -1,0 +1,307 @@
+body {
+  
+    animation-name: show;
+    animation-duration: 4s;
+    
+}
+
+@keyframes show {
+    
+    0% {
+        opacity: 0; background: transparent;
+    }
+    
+    100% {
+        
+        opacity: 1;
+    } 
+    
+}
+
+
+.navbar-brand {
+  
+    animation-name: nombre;
+    
+    animation-iteration-count: infinite; 
+    
+    animation-duration: 7s;
+    
+}
+
+@keyframes nombre {
+    
+    0% {
+        opacity: 1; 
+    }
+    
+    100% {
+        
+        opacity: 0.6;
+    } 
+    
+}
+
+
+.contacto {
+  
+    animation-name: contact;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    
+}
+
+
+.navbar {background-color: black;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {color: darkgrey; font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {color: red;}
+
+.navbar-expand-lg .navbar-brand {color: red;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 30px;}
+
+.slider {margin-top: 10px;}
+
+h1 { padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+        
+}
+
+h2 { margin-top: 10px;}
+
+
+.news {padding: 20px;}
+
+
+.txt {font-family: 'DM Sans', sans-serif;
+}
+
+.txt a {
+    color:#ad82d2;
+}
+
+
+.gal {
+color: black;
+padding: 20px;}
+
+
+.news1 img {
+width: 100%;
+}
+
+
+.news2 img { 
+width: 100%;
+}
+
+.foto1 img {width: 100%;}
+
+.foto1 img:hover {transform: scale(1.2);}
+
+.foto1 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto2 img {width: 100%;}
+
+.foto2 img:hover {transform: scale(1.2);}
+
+.foto2 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto3 img {width: 100%;}
+
+.foto3 img:hover {transform: scale(1.2);}
+
+.foto3 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto4 img {width: 100%;}
+
+.foto4 img:hover {transform: scale(1.2);}
+
+.foto4 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto3 {margin-top: 10px;}
+
+.foto4 {margin-top: 10px;}
+
+body {
+    background-color: whitesmoke;
+    font-size: 21px;
+    }
+
+
+.columnas {
+    display: flex;
+}
+
+.foto img {
+    width: 50%; border-radius: 100pt;
+}
+
+
+
+---- Artistas ----
+
+
+#wrapper { width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contenedor {
+padding: 15px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+
+}
+
+.contenedor {
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.contenedor h1 { font-family: 'Bebas Neue', cursive;}
+
+.contenedor p {
+    
+    font-family: font-family: 'Courier Prime', monospace; 
+    font-size: 19px;
+}
+
+.contenedormedio h1 { font-family: 'Bebas Neue', cursive;}
+
+.contenedormedio p {
+    
+    font-family: font-family: 'Courier Prime', monospace; 
+    font-size: 19px;
+}
+
+.textoCaja {width: 70%;
+float: right;
+font-size: 30px;
+margin-top: 60px;
+}
+
+.imgCaja {width: 30%;
+float: right;
+}
+
+.contenedormedio {
+padding: 15px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+
+.contenedormedio {
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+
+.textoCajamedio {width: 70%;
+    float: left;
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: end;
+}
+
+.imgCajamedio {width: 30%;
+float: left;
+}
+
+.imgCajamedio img {
+width: 60%;
+border-radius: 30% 10% 70% 50%;;    
+
+}
+
+.imgCaja img {
+width: 60%;
+border-radius: 10% 30% 50% 70%;    
+
+}
+
+
+.limpiarFloat {clear: both;
+} 
+
+.historimg3 img {float: right; padding: 20px;
+} 
+
+.newspic img {align-content:center;
+} 
+
+footer {background-color: red;
+padding: 3px;
+width: 100%;
+align-self: flex-end;
+clear: both;
+}
+
+footer p {font-family: 'DM Sans', sans-serif; color: white; text-align: center;
+}
+
+form {font-family: 'DM Sans', sans-serif; 
+    
+}
+
+.registrate {font-family:'Bebas Neue', cursive;}
+
+.buscador {font-family: 'DM Sans', sans-serif; margin-left: 180px;}
+
+.resultados p {font-family: 'DM Sans', sans-serif;}
+
+.contenedorimportante {display:flex; margin-left: 170px; margin-bottom: 100px; margin-top: 100px; 
+    }
+.item2 {margin-left: 170px; padding: 30px; border-left: thick solid #ff0000;}
+
+.item2 h2 {color: red;}
+
+.cajita {border-color:red;}
+
+.boton {}
+
+.marcel {width: 30%; border-radius: 50%;}
+
+
+.bienvenue {font-size: 15pt; background-color: lightgray;}
+
+.hannah {text-align: center; font-family: 'Yuji Syuku', serif; padding: 20px;}
+
+.hannah h2 {color: red;}
+
+.hannahimg {margin-top: 40px;}
+
+p { font-family: 'DM Sans', sans-serif; font-size: 14pt;}
+
+.hannahtext {font-family: 'Yuji Syuku', serif; text-align: left; font-size: 20pt; color: red;}
+
+.hannahp {text-align: left;}
+
+.vieja img {width: 20%; border-radius: 50%; margin-top: 20px;}
+
+
+
